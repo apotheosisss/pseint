@@ -1,17 +1,17 @@
-Proceso calculadorapromedio
+Proceso calculadoraPromedio
 	// Definición de las variables (Escritas en camelCase).
 	definir primeraCalificacion, segundaCalificacion, terceraCalificacion, promedioNotas Como Real;
 	//  Ingreso de la primera calificación
 	escribir "Ingrese la primera calificación.";
-	leer ex1;
+	leer primeraCalificacion;
 	esperar 1 Segundos;
 	// Ingreso de la segunda calificación
 	escribir "Ingrese la segunda calificación.";
-	leer ex2;
+	leer segundaCalificacion;
 	esperar 1 Segundos;
 	// Ingreso de la tercera calificación
 	escribir "Ingrese la tercera calificación.";
-	leer ex3;
+	leer terceraCalificacion;
 	esperar 1 Segundos;
 	// Cálculo del promedio de notas
 	promedioNotas <- (primeraCalificacion + segundaCalificacion + terceraCalificacion)/3;
