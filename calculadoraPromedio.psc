@@ -17,10 +17,10 @@ Proceso calculadoraPromedio
 	promedioNotas <- (primeraCalificacion + segundaCalificacion + terceraCalificacion)/3;
 	si promedioNotas >= 4 Entonces
 		// Mensaje de aprobación
-		escribir "Usted ha aprobado con un promedio de: ",pr;
+		escribir "Usted ha aprobado con un promedio de: ",promedioNotas;
 		
 	siNo
 		// Mensaje de Reprobación
-		escribir "Usted ha reprobado con un promedio de: ",pr;
+		escribir "Usted ha reprobado con un promedio de: ",promedioNotas;
 	finSi
 finProceso
