@@ -1,4 +1,5 @@
 Proceso tabla_de_multiplicar
+	//definición de variables (escritas en snake_case)
 	definir contador_num, numero_1 como entero;
 	//ingreso del numero a multiplicar
 	escribir "ingresa el numero que deseas multiplicar" ;
@@ -8,5 +9,4 @@ Proceso tabla_de_multiplicar
 		//calculo de la tabla de multiplicar del numero ingresado
 		escribir numero_1, "x" ,contador_num ,"=" , (numero_1*contador_num);
 	FinPara
-	
 FinProceso
